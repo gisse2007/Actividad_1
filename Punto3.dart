@@ -1,6 +1,6 @@
 import 'dart:io';
 
-void main() {
+void calculadora() {
   print('Calculadora de puntaje de equipo de futbol');
   
   print('Ingrese partidos ganados:');

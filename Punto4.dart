@@ -1,6 +1,6 @@
 import 'dart:io';
 
-void main() {
+void calcular() {
   // Variables para almacenar los datos del empleado
   String nombreEmpleado;
   double horasLaboradas;

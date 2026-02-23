@@ -2,6 +2,10 @@ import 'dart:io';
 
 import 'punto1.dart';
 import 'punto2.dart';
+import 'Punto3.dart';
+import 'Punto4.dart';
+import 'punto5.dart';
+import 'punto6.dart';
 
 void main() {
   print("--- MENÚ ---");
@@ -23,6 +27,22 @@ void main() {
     case 2:
       promedioNotas();
       break;
+
+    case 3:
+      calculadora_3();
+      break;
+
+    case 4:
+      calcular();
+      break;
+
+    case 5:
+      hipotenusa();
+      break; 
+
+    case 6:
+      Temperatura();
+      break; 
     default:
       print("Opción no válida");
   }
